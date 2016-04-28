@@ -52,3 +52,7 @@ Endpoints:
     Backend: /health
     Options:
       health: true
+- Private-IP-Name:   HTTP_IP
+  Private-Port-Name: ADMIN_PORT
+  Private-Port:      9000
+  Public-Port-Name:  ADMIN_PROXY_PORT
